@@ -59,7 +59,7 @@ public class MainActivity extends FragmentActivity {
                                             mLastKnownLocation.getLongitude()), mDestinationLatLng
                             ));
                             mMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(mLastKnownLocation.getAltitude(), mLastKnownLocation.getLongitude()))
+                                .position(new LatLng(mLastKnownLocation.getLatitude(), mLastKnownLocation.getLongitude()))
                                 .title("You are here"));
                         }
                     });
